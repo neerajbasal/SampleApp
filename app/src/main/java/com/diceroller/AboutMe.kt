@@ -15,6 +15,7 @@ class AboutMe : AppCompatActivity() {
     // DataBindingUtil.
     private lateinit var binding: ActivityAboutmeBinding
     private val myName: MyName = MyName("Neeraj")
+    private val checkStatus:Boolean = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
